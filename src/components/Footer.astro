@@ -1,3 +1,35 @@
-<footer>
-  
+---
+// import { SOCIAL } from "@/consts/social";
+---
+
+<footer class="relative w-full h-[400px] pb-32">
+  <div
+    class="absolute inset-0 bg-cover bg-bottom bg-[url('/images/footer.webp')]
+    [mask-image:linear-gradient(transparent,black_50%)]"
+  >
+  </div>
+
+  <div
+    class="relative h-full flex flex-col justify-center items-center text-[#2a1f26]"
+  >
+    <div class="footer-content">
+      <p class="text-center lowercase">© 2025 La Velada del Año. Todos los derechos reservados.</p>
+    </div>
+
+    <div class="flex flex-row gap-x-2 items-center justify-center mt-4">
+
+      <!-- {
+        SOCIAL.map(({ url, image, name, label }) => (
+          <a
+            href={url}
+            target="_blank"
+            aria-label={label ?? name}
+            class="hover:scale-125 transition flex items-center justify-center"
+          >
+            <image.logo />
+          </a>
+        ))
+      } -->
+    </div>
+  </div>
 </footer>
